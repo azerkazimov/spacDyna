@@ -1,0 +1,116 @@
+/* sifirlama */
+*,
+::before,
+::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,
+ol,
+li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+html,
+body {
+	height: 100%;
+	line-height: 1;
+}
+
+body {
+	font-family: Poppins;
+	font-size: 14px;
+}
+
+.header {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 20;
+	background-color: #fafafa;
+}
+
+.header-content {
+	display: flex;
+	min-height: 100px;
+}
+
+.header_logo {
+	font-size: 24px;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+.header_menu {
+	flex: 1 1 auto;
+}
+
+.header_button {
+	display: flex;
+	justify-content: flex-end;
+	padding: 0 0 0 40px;
+}
+
+.menu {
+	display: flex;
+	justify-content: flex-end;
+	font-size: 15px;
+	font-weight: 500;
+	color: #1e1e1e;
+	letter-spacing: 1px;
+}
+
+.menu_list {
+	display: flex;
+}
+
+.menu_item {
+	margin: 0 20px;
+	transition: 0.4s;
+	cursor: pointer;
+}
+
+.menu_item:first-child {
+	color: #fe3f40;
+}
+
+.menu_item:hover {
+	color: #fe3f40;
+}
+
+.menu_link {}
+
+.button {
+	border-radius: 20px;
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+
+.button_active {
+	padding: 10px 20px;
+	color: #fff;
+	background-color: #fe3f40;
+}
+

@@ -1,0 +1,32 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	min-height: 100%;
+}
+
+.container {
+	max-width: 1140px;
+	margin: 0px auto;
+	padding: 0 20px;
+}
+
+.main{
+	flex: 1 1 auto;
+}
+
+#blue{
+	color: #03a4ed;
+}
+
+#red{
+	color: #fe3f40;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.space-between{
+	justify-content: space-between;
+}
